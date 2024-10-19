@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 ## About
 
-**Background**. I am currently a Postdoc of [Graph and Geometric Learning Lab](https://graph-and-geometric-learning.github.io/) led by [Prof. Rex Ying](https://www.cs.yale.edu/homes/ying-rex/) at Yale University. Prior to that, I obtained my Ph.D. from The Chinese University of Hong Kong, supervised by [Prof. Irwin King](https://scholar.google.com/citations?user=MXvC7tkAAAAJ&hl=en).
+**Background**. I am currently a Postdoc at Yale University, working with [Prof. Rex Ying](https://www.cs.yale.edu/homes/ying-rex/). Prior to that, I obtained my Ph.D. from The Chinese University of Hong Kong, supervised by [Prof. Irwin King](https://scholar.google.com/citations?user=MXvC7tkAAAAJ&hl=en).
 
 **Research Interests**. My research is primarily focused on exploring the connection and alignment between the **learning space**, especially the hyperbolic space, and **the underlying geometries, structures and patterns** in different types of data.
 
