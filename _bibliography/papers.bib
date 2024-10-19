@@ -3,113 +3,238 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{Hypformer2024,
+  abbr={KDD '24},
+  title={Hypformer: Exploring Efficient Transformer in Hyperbolic space},
+  author={Yang, Menglin and Verma, Harshit and Zhang, Delvin Ce and Liu, Jiahong and King, Irwin and Ying, Rex},
+  year={2024},
+  journal={KDD},
+  code={https://github.com/marlin-codes/hyperbolicTransformer},
+  pdf={https://arxiv.org/abs/2407.01290},
+  url={https://arxiv.org/abs/2407.01290},
   selected={true},
-  inspirehep_id = {3255}
+  abstract={Hyperbolic geometry have shown significant potential in modeling complex structured data, particularly those with underlying tree-like and hierarchical structures. Despite the impressive performance of various hyperbolic neural networks across numerous domains, research on adapting the Transformer to hyperbolic space remains limited. Previous attempts have mainly focused on modifying self-attention modules in the Transformer. However, these efforts have fallen short of developing a complete hyperbolic Transformer. This stems primarily from: (i) the absence of well-defined modules in hyperbolic space, including linear transformation layers, LayerNorm layers, activation functions, dropout operations, etc. (ii) the quadratic time complexity of the existing hyperbolic self-attention module w.r.t the number of input tokens, which hinders its scalability. To address these challenges, we propose, Hypformer, a novel hyperbolic Transformer based on the Lorentz model of hyperbolic geometry. In Hypformer, we introduce two foundational blocks that define the essential modules of the Transformer in hyperbolic space. Furthermore, we develop a linear self-attention mechanism in hyperbolic space, enabling hyperbolic Transformer to process billion-scale graph data and long-sequence inputs for the first time. Our experimental results confirm the effectiveness and efficiency of Hypformer across various datasets, demonstrating its potential as an effective and scalable solution for large-scale data representation and large models.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{HyperbolicFineTuning2024,
+  abbr={Preprint '24},
+  title={Hyperbolic Fine-tuning for Large Language Models},
+  author={Yang, Menglin and Feng, Aosong and Xiong, Bo and Liu, Jiahong and King, Irwin and Ying, Rex},
+  year={2024},
+  journal={Preprint},
+  pdf={https://arxiv.org/abs/2410.04010},
+  url={https://arxiv.org/abs/2410.04010},
+  code={https://github.com/marlin-codes/HypLLM},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{kHGCN2023,
+  abbr={KDD '23},
+  title={{$\kappa$}HGCN: Tree-likeness modeling via continuous and discrete curvature},
+  author={Yang, Menglin and Zhou, Min and Pan, Lujia and King, Irwin},
+  year={2023},
+  journal={KDD},
+  pdf={https://dl.acm.org/doi/abs/10.1145/3580305.3599532},
+  code={https://github.com/marlin-codes/kHGCN},
+  url={https://dl.acm.org/doi/abs/10.1145/3580305.3599532},
+  selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{HierarchicalLearning2023,
+  abbr={ICML '23},
+  title={Hierarchical Learning in Hyperbolic Space: Revisit and Beyond},
+  author={Yang, Menglin and Zhou, Min and Ying, Rex and Chen, Yankai and King, Irwin},
+  year={2023},
+  journal={ICML},
+  pdf={https://proceedings.mlr.press/v202/yang23u/yang23u.pdf},
+  code={https://github.com/marlin-codes/HIE},
+  url={https://proceedings.mlr.press/v202/yang23u/yang23u.pdf},
+  selected={true}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@article{HyperbolicTemporal2022,
+  abbr={TKDE '22},
+  title={Hyperbolic Temporal Network Embedding},
+  author={Yang, Menglin and Zhou, Min and Xiong, Hui and King, Irwin},
+  year={2022},
+  journal={TKDE},
+  pdf={https://www.computer.org/csdl/journal/tk/5555/01/09999499/1JrMz2WQoO4},
+  code={https://github.com/marlin-codes/HTGN},
+  url={https://www.computer.org/csdl/journal/tk/5555/01/09999499/1JrMz2WQoO4},
+  selected={false}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{HICF2022,
+  abbr={KDD '22},
+  title={HICF: Hyperbolic Informative Collaborative Filtering},
+  author={Yang, Menglin and Li, Zhihao and Zhou, Min and Liu, Jiahong and King, Irwin},
+  year={2022},
+  journal={KDD},
+  pdf={https://arxiv.org/abs/2207.09051},
+  code={https://github.com/marlin-codes/HICF},
+  url={https://arxiv.org/abs/2207.09051},
+  selected={true}
 }
+
+@article{HRCF2022,
+  abbr={WWW '22},
+  title={HRCF: Enhancing Collaborative Filtering via Hyperbolic Geometric Regularization},
+  author={Yang, Menglin and Zhou, Min and Liu, Jiahong and Lian, Defu and King, Irwin},
+  year={2022},
+  journal={WWW},
+  pdf={https://arxiv.org/abs/2204.08176},
+  code={https://github.com/marlin-codes/HRCF},
+  url={https://arxiv.org/abs/2204.08176},
+  selected={true}
+}
+
+@article{HGNNsReview2022,
+  abbr={Survey '22},
+  title={Hyperbolic Graph Neural Networks: A Review of Methods and Application},
+  author={Yang, Menglin and Zhou, Min and Li, Zhihao and Liu, Jiahong and Pan, Lujia and Xiong, Hui and King, Irwin},
+  year={2022},
+  journal={Survey},
+  pdf={https://arxiv.org/abs/2202.13852},
+  code={https://github.com/marlin-codes/HGNNs},
+  url={https://arxiv.org/abs/2202.13852},
+  selected={true}
+}
+
+@article{DiscreteTimeEmbedding2021,
+  abbr={KDD '21},
+  title={Discrete-time Temporal Network Embedding via Implicit Hierarchical Learning in Hyperbolic Space},
+  author={Yang, Menglin and Zhou, Min and Kalander, Marcus and Huang, Zengfeng and King, Irwin},
+  year={2021},
+  journal={KDD},
+  pdf={https://arxiv.org/abs/2107.03767},
+  code={https://github.com/marlin-codes/HTGN},
+  url={https://arxiv.org/abs/2107.03767},
+  selected={true}
+}
+
+@article{FeatureNorm2020,
+  abbr={ICDM '20},
+  title={FeatureNorm: L2 Feature Normalization for Dynamic Graph Embedding},
+  author={Yang, Menglin and Meng, Ziqiao and King, Irwin},
+  year={2020},
+  journal={ICDM},
+  pdf={https://arxiv.org/abs/2103.00164},
+  code={https://github.com/marlin-codes/FeatureNorm-ICDM2020},
+  url={https://arxiv.org/abs/2103.00164},
+  selected={false}
+}
+
+@article{UHCone2024,
+  abbr={GRAM@ICML '24},
+  title={UHCone: Universal Hyperbolic Entailment Cone},
+  author={Yang, Menglin and Liu, Jiahong and King, Irwin and Ying, Rex},
+  year={2024},
+  journal={ICML GRAM Workshop},
+  pdf={https://openreview.net/attachment?id=BBgop7vYvX&name=pdf},
+  url={https://openreview.net/attachment?id=BBgop7vYvX&name=pdf},
+  selected={false}
+}
+
+@article{GraphLearningTheory2024,
+  abbr={Preprint '24},
+  title={Foundations and Frontiers of Graph Learning Theory},
+  author={Huang, Yu and Zhou, Min and Yang, Menglin and Wang, Zhen and Zhang, Muhan and Wang, Jie and Xie, Hong and Wang, Hao and Lian, Defu and Chen, Enhong},
+  year={2024},
+  journal={arXiv preprint},
+  pdf={https://arxiv.org/abs/2407.03125},
+  url={https://arxiv.org/abs/2407.03125}
+}
+
+@article{DTGB2024,
+  abbr={NeurIPS '24},
+  title={DTGB: A Comprehensive Benchmark for Dynamic Text-Attributed Graphs},
+  author={Zhang, Jiasheng and Chen, Jialin and Yang, Menglin and Feng, Aosong and Liang, Shuang and Shao, Jie and Ying, Rex},
+  year={2024},
+  journal={NeurIPS},
+  pdf={https://arxiv.org/pdf/2406.12072},
+  url={https://arxiv.org/abs/2406.12072}
+}
+
+@article{TextAttributedGraph2024,
+  abbr={The WebConf '24},
+  title={Text-attributed graph representation learning: Methods, applications, and challenges},
+  author={Zhang, Delvin Ce and Yang, Menglin and Ying, Rex and Lauw, Hady W},
+  year={2024},
+  journal={Companion Proceedings of the ACM on Web Conference 2024},
+  url={https://dl.acm.org/doi/pdf/10.1145/3589335.3641255},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3589335.3641255}
+}
+
+@article{LorentzianResNet2024,
+  abbr={GRAM@ICML '24},
+  title={Lorentzian Residual Neural Networks},
+  author={He, Neil and Yang, Menglin and Ying, Rex},
+  year={2024},
+  journal={GRAM workshop @ ICML},
+  url={https://openreview.net/pdf?id=WRWKy1M77y},
+  pdf={https://openreview.net/pdf?id=WRWKy1M77y}
+}
+
+@inproceedings{ScaleFreeGraphs2022,
+  abbr={WSDM '22},
+  title={Modeling Scale-free Graphs with Hyperbolic Geometry for Knowledge-aware Recommendation},
+  author={Chen, Yankai and Yang, Menglin and Zhang, Yingxue and Zhao, Mengchen and Meng, Ziqiao and Hao, Jianye and King, Irwin},
+  year={2022},
+  booktitle={WSDM)},
+  url={https://dl.acm.org/doi/pdf/10.1145/3488560.3498419},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3488560.3498419}
+}
+
+@inproceedings{TeleGraph2022,
+  abbr={GLB@WWW '22},
+  title={TeleGraph: A Benchmark Dataset for Hierarchical Link Prediction},
+  author={Zhou, Min and Li, Bisheng and Yang, Menglin and Pan, Lujia},
+  year={2022},
+  booktitle={GLB 2022 @TheWebConf 2022},
+  pdf={https://arxiv.org/pdf/2204.01623},
+  url={https://arxiv.org/abs/2204.01623}
+}
+
+@inproceedings{BSAL2022,
+  abbr={SIGIR '22},
+  title={BSAL: A Framework of Bi-component Structure and Attribute Learning for Link Prediction},
+  author={Li, Bisheng and Zhou, Min and Zhang, Shengzhong and Yang, Menglin and Lian, Defu and Huang, Zengfeng},
+  year={2022},
+  booktitle={SIGIR},
+  url={https://dl.acm.org/doi/pdf/10.1145/3477495.3531804},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3477495.3531804}
+}
+@inproceedings{AttributeStars2022,
+  abbr={ICDE '22},
+  title={Discovering Representative Attribute-stars via Minimum Description Length},
+  author={Liu, Jiahong and Zhou, Min and Fournier-Viger, Philippe and Yang, Menglin and Pan, Lujia and Nouioua, Mourad},
+  year={2022},
+  booktitle={ICDE},
+  url={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9835393},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9835393}
+}
+
+@inproceedings{HyperbolicEmbeddings2022,
+  abbr={SSL@NeurIPS '22},
+  title={Enhancing Hyperbolic Graph Embeddings via Contrastive Learning},
+  author={Liu, Jiahong and Yang, Menglin and Zhou, Min and Feng, Shanshan and Fournier-Viger, Philippe},
+  year={2021},
+  booktitle={2nd SSL Workshop of NeurIPS 2021},
+  pdf={https://arxiv.org/pdf/2201.08554},
+  url={https://arxiv.org/abs/2201.08554}
+}
+
+@inproceedings{WSFE2023,
+  abbr={SIGIR '23},
+  title={WSFE: Wasserstein Sub-graph Feature Encoder for Effective User Segmentation in Collaborative Filtering},
+  author={Chen, Yankai and Zhang, Yifei and Yang, Menglin and Song, Zixing and Ma, Chen and King, Irwin},
+  year={2023},
+  booktitle={SIGIR},
+  url={https://arxiv.org/abs/2305.04410},
+  pdf={https://arxiv.org/abs/2305.04410},
+}
+
+
+
+
+

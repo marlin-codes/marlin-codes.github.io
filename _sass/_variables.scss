@@ -3,50 +3,91 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
-@use "sass:color";
+ @use "sass:color";
 
-// Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
-
-$grey-color: #828282 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
-$grey-900: #212529;
-
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
-
-// Theme colors
-
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
-
-// Font awesome location
-$fa-font-path: "../webfonts";
-
-// Tabler icons location
-$ti-font-path: "../fonts";
-
-// Back To Top button config
-$back-to-top-z-index: 10;
-$back-to-top-bottom: 30px;
-$back-to-top-right: 30px;
-$back-to-top-diameter: 40px;
-$back-to-top-height: $back-to-top-diameter;
-$back-to-top-width: $back-to-top-diameter;
+ // Colors
+ $red-color: #ff3636 !default;
+ $red-color-dark: #b71c1c !default;
+ $orange-color: #f29105 !default;
+ $blue-color: #0076df !default;
+ $blue-color-dark: #00369f !default;
+ $cyan-color: #2698ba !default;
+ $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
+ $green-color: #00ab37 !default;
+ $green-color-lime: #b7d12a !default;
+ $green-color-dark: #009f06 !default;
+ $green-color-light: #ddffdd !default;
+ $green-color-bright: #11d68b !default;
+ $purple-color: #0366d6 !default;
+ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
+ $pink-color: #f92080 !default;
+ $pink-color-light: #ffdddd !default;
+ $yellow-color: #efcc00 !default;
+ 
+ $grey-color: #828282 !default;
+ $grey-color-light: color.adjust($grey-color, $lightness: 40%);
+ $grey-color-dark: #1c1c1d;
+ $grey-900: #212529;
+ 
+ $white-color: #ffffff !default;
+ $black-color: #000000 !default;
+ 
+ // Theme colors
+ $code-bg-color-light: rgba($purple-color, 0.05);
+ $code-bg-color-dark: #2c3237 !default;
+ 
+ // Font awesome location
+ $fa-font-path: "../webfonts";
+ 
+ // Tabler icons location
+ $ti-font-path: "../fonts";
+ 
+ // Back To Top button config
+ $back-to-top-z-index: 10;
+ $back-to-top-bottom: 30px;
+ $back-to-top-right: 30px;
+ $back-to-top-diameter: 40px;
+ $back-to-top-height: $back-to-top-diameter;
+ $back-to-top-width: $back-to-top-diameter;
+ 
+ // Font families
+ $serif-font-family: "Times New Roman", Times, serif !default;
+ $sans-serif-font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
+ $monospace-font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+ 
+ // Base font
+ $global-font-family: $sans-serif-font-family !default;
+ $header-font-family: $sans-serif-font-family !default;
+ $caption-font-family: $serif-font-family !default;
+ $code-font-family: $monospace-font-family !default;
+ 
+ // Font weights
+ $font-weight-light: 400 !default;
+ $font-weight-normal: 400 !default;
+ $font-weight-medium: 500 !default;
+ $font-weight-semibold: 500 !default;
+ $font-weight-bold: 800 !default;
+ 
+ // Base font weight
+ $base-font-weight: $font-weight-normal !default;
+ 
+ // Header font weights
+ $h1-font-weight: $font-weight-bold !default;
+ $h2-font-weight: $font-weight-semibold !default;
+ $h3-font-weight: $font-weight-medium !default;
+ $h4-font-weight: $font-weight-medium !default;
+ $h5-font-weight: $font-weight-medium !default;
+ $h6-font-weight: $font-weight-medium !default;
+ 
+ // Font sizes
+ $base-font-size: 20px !default;
+ $small-font-size: 1.075em !default;
+ $large-font-size: 1.325em !default;
+ 
+ // Line heights
+ $base-line-height: 1.6 !default;
+ $header-line-height: 1.2 !default;
+ 
+ // Letter spacing
+ $base-letter-spacing: 0.01em !default;
+ $header-letter-spacing: -0.02em !default;

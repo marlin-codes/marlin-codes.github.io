@@ -1,25 +1,42 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Yale University, 10 Hillhouse Avenue, New Haven, CT, USA.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: photo.jpg
+  image_circular: true # crops the image to make it circular
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## About
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Background**. I am currently a Postdoc of [Graph and Geometric Learning Lab](https://graph-and-geometric-learning.github.io/) led by [Prof. Rex Ying](https://www.cs.yale.edu/homes/ying-rex/) at Yale University. Prior to that, I obtained my Ph.D. from The Chinese University of Hong Kong, supervised by [Prof. Irwin King](https://scholar.google.com/citations?user=MXvC7tkAAAAJ&hl=en).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Research Interests**. My research is primarily focused on exploring the connection and alignment between the **learning space**, especially the hyperbolic space, and **the underlying geometries, structures and patterns** in different types of data.
+
+**Recently, I has been working the following topics:**
+
+(1) Hyperbolic representation learning, curvature adaptive learning, differential geometry
+
+(2) Foundation models, generative model, alignment across multi-source data, non-Euclidean space for foundation models
+
+(3) Recommender systems, network sciences, and AI4SCI
+
+Feel free to reach out if you have anything you would like to discuss.
+
+
+{: .info }
+>New papers, blogs, and books on the hyperbolic representation and deep learning topic are shared in the following slack channel and GitHub repo. Welcome to join and share more on this fascinating research: 
+> - [🔥 Hyperbolic Representation and Deep Learning Slack Channel (Click)](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA) 
+> - [🔥 Awesome Hyperbolic Representation and Deep Learning GitHub Repository (Click)](https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning)
+
