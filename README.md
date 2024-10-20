@@ -1,5 +1,7 @@
 # al-folio
 
+bundle exec jekyll serve --port 4000 --livereload --trace 
+
 <div align="center">
 
 [![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)

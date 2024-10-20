@@ -6,7 +6,7 @@ subtitle: Yale University, 10 Hillhouse Avenue, New Haven, CT, USA.
 
 profile:
   align: right
-  image: photo.jpg
+  image: photo.png
   image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
