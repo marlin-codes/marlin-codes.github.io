@@ -32,7 +32,7 @@ social: true # includes social icons at the bottom of the page
 
 (3) Recommender systems, network sciences, and AI4SCI
 
-Feel free to reach out if you have anything you would like to discuss.
+Feel free to reach out if you have anything you would like to discuss. Besides, I will join HKUSTGZ in 2025, information about PhD student recruitment can be found at the PDFs: [Chinese Version](./assets/bibliography/digailab_re.pdf), [English Version](./assets/bibliography/digailab_en.pdf).
 
 
 {: .info }
